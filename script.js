@@ -4,5 +4,8 @@ console.log( 40 + 30 + 30 -10);
 console.log('EKENE');
 console.log(49);
 
-letfirstName = 'Ekene';
+let firstName = 'Ekene';
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
 console.log(firstName);
