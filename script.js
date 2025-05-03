@@ -6,6 +6,5 @@ console.log(49);
 
 let firstName = 'Ekene';
 console.log(firstName);
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
+
+let Ekene_Babe = 'EB'
