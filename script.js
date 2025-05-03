@@ -15,3 +15,5 @@ let myCurrentJob = 'Teacher';
 
 let job1 = 'Programmer';
 let job2 = 'Teacher';
+
+console.log(myFirstJob);
