@@ -8,3 +8,10 @@ let firstName = 'Ekene';
 console.log(firstName);
 
 let Ekene_Babe = 'EB'
+let $function = '27'
+
+let myFirstJob = 'Programmer';
+let myCurrentJob = 'Teacher';
+
+let job1 = 'Programmer';
+let job2 = 'Teacher';
