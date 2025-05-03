@@ -7,13 +7,13 @@ console.log(49);
 let firstName = 'Ekene';
 console.log(firstName);
 
-let Ekene_Babe = 'EB'
-let $function = '27'
+let Ekene_Babe ="EB";
+let $function = "27"
 
-let myFirstJob = 'Programmer';
-let myCurrentJob = 'Teacher';
+let myFirstJob = "Programmer";
+let myCurrentJob = "Teacher";
 
-let job1 = 'Programmer';
-let job2 = 'Teacher';
+let job1 ="programmer";
+let job2 = "teacher";
 
 console.log(myFirstJob);
