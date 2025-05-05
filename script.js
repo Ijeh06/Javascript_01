@@ -50,6 +50,7 @@
 
 // // console.log(typeof Number); 
 
+
 //const declaring variables
 const now = 2030;
 const ageEkene = now - 2004;
