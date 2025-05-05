@@ -23,9 +23,12 @@ let JavascriptIsFun = true;
 console.log(JavascriptIsFun);
 
 console.log(typeof true); 
+console.log(typeof JavascriptIsFun); 
+console.log(typeof 43); 
+console.log(typeof 'Ekene'); 
 
-//Data Type Functions
-// let age = Number(prompt("What is your age?"));
-// console.log(Number(age) + 10);
 
-// console.log(typeof Number); 
+let age = Number(prompt("What is your age?"));
+console.log(Number(age));
+
+console.log(typeof Number); 
