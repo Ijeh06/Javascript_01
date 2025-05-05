@@ -22,13 +22,18 @@
 let JavascriptIsFun = true;
 console.log(JavascriptIsFun);
 
-console.log(typeof true); 
+// console.log(typeof true); 
 console.log(typeof JavascriptIsFun); 
-console.log(typeof 43); 
-console.log(typeof 'Ekene'); 
+// console.log(typeof 43); 
+// console.log(typeof 'Ekene'); 
+
+JavascriptIsFun ='YES!!!';
+console.log(typeof JavascriptIsFun);
 
 
-let age = Number(prompt("What is your age?"));
-console.log(Number(age));
 
-console.log(typeof Number); 
+
+// let age = Number(prompt("What is your age?"));
+// console.log(Number(age));
+
+// console.log(typeof Number); 
