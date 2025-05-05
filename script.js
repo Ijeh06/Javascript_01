@@ -21,31 +21,37 @@
 // console.log(myFirstJob, myCurrentJob);
 
 
-let JavascriptIsFun = true;
-console.log(JavascriptIsFun);
+// let JavascriptIsFun = true;
+// console.log(JavascriptIsFun);
 
-// console.log(typeof true); 
-console.log(typeof JavascriptIsFun);  //boolean
-// console.log(typeof 43); 
-// console.log(typeof 'Ekene'); 
+// // console.log(typeof true); 
+// console.log(typeof JavascriptIsFun);  //boolean
+// // console.log(typeof 43); 
+// // console.log(typeof 'Ekene'); 
 
-JavascriptIsFun ='YES!!!';
-console.log(typeof JavascriptIsFun); //string
-
-
-//Undefined Data Type
-let year;
-console.log(year)
-console.log(typeof year); 
-
-year = 2004;
-console.log(typeof year); //number
-console.log(typeof null); //object
+// JavascriptIsFun ='YES!!!';
+// console.log(typeof JavascriptIsFun); //string
 
 
+// //Undefined Data Type
+// let year;
+// console.log(year)
+// console.log(typeof year); 
 
-// Functions Data Type
-// let age = Number(prompt("What is your age?"));
-// console.log(Number(age));
+// year = 2004;
+// console.log(typeof year); //number
+// console.log(typeof null); //object
 
-// console.log(typeof Number); 
+
+
+// // Functions Data Type
+// // let age = Number(prompt("What is your age?"));
+// // console.log(Number(age));
+
+// // console.log(typeof Number); 
+
+//const declaring variables
+const now = 2030;
+const ageEkene = now - 2004;
+const ageSharon = now - 2003;
+console.log(ageEkene, ageSharon); //number
