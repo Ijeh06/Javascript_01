@@ -18,7 +18,14 @@
 
 // console.log(myFirstJob, myCurrentJob);
 
-let age = Number(prompt("What is your age?"));
-console.log(Number(age) + 10);
 
-console.log(typeof Number); 
+let JavascriptIsFun = true;
+console.log(JavascriptIsFun);
+
+console.log(typeof true); 
+
+//Data Type Functions
+// let age = Number(prompt("What is your age?"));
+// console.log(Number(age) + 10);
+
+// console.log(typeof Number); 
