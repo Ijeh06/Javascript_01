@@ -1,3 +1,5 @@
+//Convention and Rules
+
 // let js = 'Amazing';
 // console.log( 40 + 30 + 30 -10);
 
@@ -23,16 +25,26 @@ let JavascriptIsFun = true;
 console.log(JavascriptIsFun);
 
 // console.log(typeof true); 
-console.log(typeof JavascriptIsFun); 
+console.log(typeof JavascriptIsFun);  //boolean
 // console.log(typeof 43); 
 // console.log(typeof 'Ekene'); 
 
 JavascriptIsFun ='YES!!!';
-console.log(typeof JavascriptIsFun);
+console.log(typeof JavascriptIsFun); //string
+
+
+//Undefined Data Type
+let year;
+console.log(year)
+console.log(typeof year); 
+
+year = 2004;
+console.log(typeof year); //number
+console.log(typeof null); //object
 
 
 
-
+// Functions Data Type
 // let age = Number(prompt("What is your age?"));
 // console.log(Number(age));
 
