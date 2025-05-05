@@ -55,3 +55,6 @@ const now = 2030;
 const ageEkene = now - 2004;
 const ageSharon = now - 2003;
 console.log(ageEkene, ageSharon); //number
+
+console.log(ageEkene * 2, ageEkene / 2, 2 ** 3); //Exponentiation operator
+// 2 ** 3 = 2 * 2 * 2 = 8 means 2 raised to the power of 3
