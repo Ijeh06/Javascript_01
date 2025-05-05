@@ -18,5 +18,7 @@
 
 // console.log(myFirstJob, myCurrentJob);
 
-true; 
-console.log(true); 
+let age = Number(prompt("What is your age?"));
+console.log(Number(age) + 10);
+
+console.log(typeof Number); 
