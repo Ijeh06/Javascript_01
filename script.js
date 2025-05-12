@@ -55,7 +55,18 @@
 const now = 2030;
 const ageEkene = now - 2004;
 const ageSharon = now - 2003;
-console.log(ageEkene, ageSharon); //number
+console.log(ageEkene); //number
+console.log(ageSharon);
 
 console.log(ageEkene * 2, ageEkene / 2, 2 ** 3); //Exponentiation operator
 // 2 ** 3 = 2 * 2 * 2 = 8 means 2 raised to the power of 3
+
+const firstName ='Ekene';
+const lastName = 'Ijeh';
+console.log(firstName + ' ' + lastName); //string concatenation
+
+
+let age = Number(prompt('What Is Your Ag?'));
+console.log(Number(age));
+
+console.log(typeof Number)
