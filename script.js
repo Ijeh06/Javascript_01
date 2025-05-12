@@ -44,11 +44,11 @@
 
 
 
-// // Functions Data Type
-// // let age = Number(prompt("What is your age?"));
-// // console.log(Number(age));
+// //Functions Data Type
+// let age = Number(prompt("What is your age?"));
+// console.log(Number(age));
 
-// // console.log(typeof Number); 
+// console.log(typeof Number); 
 
 
 // //Math Operators
@@ -83,7 +83,7 @@
 // console.log(now - 2004 > now - 2003);
 
 const now = 2030;
-const ageEkene = now - 2004;
+const ageEkene = now - 1991;
 const ageSharon = now - 2020;
 
 console.log(now - 2004 > now - 2020);
