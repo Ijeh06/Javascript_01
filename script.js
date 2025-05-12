@@ -54,7 +54,7 @@
 //Math Operators
 const now = 2030;
 const ageEkene = now - 2004;
-const ageSharon = now - 2020;
+const ageSharon = now - 2003;
 console.log(ageEkene); //number
 console.log(ageSharon);
 
@@ -77,3 +77,7 @@ console.log(x); //15
 //Comparison Operators
 console.log(ageEkene > ageSharon); //true
 console.log(ageSharon >= 18); //true
+
+const isFullAge = ageSharon >= 18; //true
+
+console.log(now - 2004 > now - 2003);
