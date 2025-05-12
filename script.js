@@ -93,3 +93,6 @@ console.log(25 - 10 - 5); //10 left to right
 let x,y; //undefined
 x = y = 25 - 10 - 5; //x = y = 10
 console.log(x, y); 
+
+const averageAge = (ageEkene + ageSharon) / 2; //average age of Ekene and Sharon
+console.log(ageEkene, ageSharon, averageAge); //average age of Ekene and Sharon
