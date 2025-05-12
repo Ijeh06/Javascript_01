@@ -87,3 +87,9 @@ const ageEkene = now - 2004;
 const ageSharon = now - 2020;
 
 console.log(now - 2004 > now - 2020);
+
+console.log(25 - 10 - 5); //10 left to right
+
+let x,y; //undefined
+x = y = 25 - 10 - 5; //x = y = 10
+console.log(x, y); 
