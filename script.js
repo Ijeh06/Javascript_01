@@ -66,7 +66,8 @@ const lastName = 'Ijeh';
 console.log(firstName + ' ' + lastName); //string concatenation
 
 
-let age = Number(prompt('What Is Your Ag?'));
-console.log(Number(age));
-
-console.log(typeof Number)
+let x = 10 + 5; //15
+x += 10;
+x *= 4; //100
+x++; //101
+console.log(x); //15
