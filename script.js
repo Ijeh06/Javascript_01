@@ -51,33 +51,39 @@
 // // console.log(typeof Number); 
 
 
-//Math Operators
+// //Math Operators
+// const now = 2030;
+// const ageEkene = now - 2004;
+// const ageSharon = now - 2003;
+// console.log(ageEkene); //number
+// console.log(ageSharon);
+
+// console.log(ageEkene * 2, ageEkene / 2, 2 ** 3); //Exponentiation operator
+// // 2 ** 3 = 2 * 2 * 2 = 8 means 2 raised to the power of 3
+
+// const firstName ='Ekene';
+// const lastName = 'Ijeh';
+// console.log(firstName + ' ' + lastName); //string concatenation
+
+// //Assignment Operators
+// let x = 10 + 5; //15
+// x += 10;
+// x *= 4; //100
+// x++; //101
+// x--; //100
+// x--; //99
+// console.log(x); //15
+
+// //Comparison Operators
+// console.log(ageEkene > ageSharon); //true
+// console.log(ageSharon >= 18); //true
+
+// const isFullAge = ageSharon >= 18; //true
+
+// console.log(now - 2004 > now - 2003);
+
 const now = 2030;
 const ageEkene = now - 2004;
-const ageSharon = now - 2003;
-console.log(ageEkene); //number
-console.log(ageSharon);
+const ageSharon = now - 2020;
 
-console.log(ageEkene * 2, ageEkene / 2, 2 ** 3); //Exponentiation operator
-// 2 ** 3 = 2 * 2 * 2 = 8 means 2 raised to the power of 3
-
-const firstName ='Ekene';
-const lastName = 'Ijeh';
-console.log(firstName + ' ' + lastName); //string concatenation
-
-//Assignment Operators
-let x = 10 + 5; //15
-x += 10;
-x *= 4; //100
-x++; //101
-x--; //100
-x--; //99
-console.log(x); //15
-
-//Comparison Operators
-console.log(ageEkene > ageSharon); //true
-console.log(ageSharon >= 18); //true
-
-const isFullAge = ageSharon >= 18; //true
-
-console.log(now - 2004 > now - 2003);
+console.log(now - 2004 > now - 2020);
