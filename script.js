@@ -82,17 +82,28 @@
 
 // console.log(now - 2004 > now - 2003);
 
-const now = 2030;
-const ageEkene = now - 1991;
-const ageSharon = now - 2020;
+// const now = 2030;
+// const ageEkene = now - 1991;
+// const ageSharon = now - 2020;
 
-console.log(now - 2004 > now - 2020);
+// console.log(now - 2004 > now - 2020);
 
-console.log(25 - 10 - 5); //10 left to right
+// console.log(25 - 10 - 5); //10 left to right
 
-let x,y; //undefined
-x = y = 25 - 10 - 5; //x = y = 10
-console.log(x, y); 
+// let x,y; //undefined
+// x = y = 25 - 10 - 5; //x = y = 10
+// console.log(x, y); 
 
-const averageAge = (ageEkene + ageSharon) / 2; //average age of Ekene and Sharon
-console.log(ageEkene, ageSharon, averageAge); //average age of Ekene and Sharon
+// const averageAge = (ageEkene + ageSharon) / 2; //average age of Ekene and Sharon
+// console.log(ageEkene, ageSharon, averageAge); //average age of Ekene and Sharon
+
+const massMark = 78; //kg
+const heightMark = 1.69; //m
+const massJohn = 92; //kg
+const heightJohn = 1.95; //m
+
+const BMIMark = massMark / heightMark ** 2; //BMI of Mark
+const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
+const markHigherBMI = BMIMark > BMIJohn; //true or false
+
+console.log(BMIMark, BMIJohn); //BMI of Mark and John
