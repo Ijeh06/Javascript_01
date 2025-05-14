@@ -125,3 +125,13 @@
 // const ekeneHigherBMI = BMIEkene > BMITobi; //true or false
 
 // console.log(BMIEkene, BMITobi); //BMI of Ekene and Tobi
+
+
+const firstName = 'Ekene';
+const job = 'Programmer';
+const birthYear = 2004;
+const year = 2025;
+
+const ekene = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+
+console.log(ekene); //string concatenation
