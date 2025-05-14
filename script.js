@@ -97,10 +97,15 @@
 // const averageAge = (ageEkene + ageSharon) / 2; //average age of Ekene and Sharon
 // console.log(ageEkene, ageSharon, averageAge); //average age of Ekene and Sharon
 
-const massMark = 78; //kg
-const heightMark = 1.69; //m
-const massJohn = 92; //kg
-const heightJohn = 1.95; //m
+// const massMark = 78; //kg
+// const heightMark = 1.69; //m
+// const massJohn = 92; //kg
+// const heightJohn = 1.95; //m
+
+const massMark = 95; //kg
+const heightMark = 1.88; //m
+const massJohn = 85; //kg
+const heightJohn = 1.76; //m
 
 const BMIMark = massMark / heightMark ** 2; //BMI of Mark
 const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
