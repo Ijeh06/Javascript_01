@@ -106,4 +106,4 @@ const BMIMark = massMark / heightMark ** 2; //BMI of Mark
 const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
 const markHigherBMI = BMIMark > BMIJohn; //true or false
 
-console.log(BMIMark, BMIJohn); //BMI of Mark and John
+console.log(BMIMark, BMIJohn, markHigherBMI); //BMI of Mark and John
