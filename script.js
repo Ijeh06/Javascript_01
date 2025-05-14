@@ -135,3 +135,11 @@ const year = 2025;
 const ekene = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
 
 console.log(ekene); //string concatenation
+
+const Ekenenew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(Ekenenew); //template literal
+
+console.log(`Just a regular string...`); //template literal
+console.log('String with \n\
+    multiple \n\
+    lines'); //string with multiple lines
