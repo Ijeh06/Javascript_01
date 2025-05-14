@@ -102,13 +102,24 @@
 // const massJohn = 92; //kg
 // const heightJohn = 1.95; //m
 
-const massMark = 95; //kg
-const heightMark = 1.88; //m
-const massJohn = 85; //kg
-const heightJohn = 1.76; //m
+// const massMark = 95; //kg
+// const heightMark = 1.88; //m
+// const massJohn = 85; //kg
+// const heightJohn = 1.76; //m
 
-const BMIMark = massMark / heightMark ** 2; //BMI of Mark
-const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
-const markHigherBMI = BMIMark > BMIJohn; //true or false
+// const BMIMark = massMark / heightMark ** 2; //BMI of Mark
+// const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
+// const markHigherBMI = BMIMark > BMIJohn; //true or false
 
-console.log(BMIMark, BMIJohn, markHigherBMI); //BMI of Mark and John
+// console.log(BMIMark, BMIJohn, markHigherBMI); //BMI of Mark and John
+
+const massEkene = 70; //kg
+const heightEkene = 1.75; //m
+const massTobi = 85; //kg
+const heightTobi = 1.76; //m
+
+const BMIEkene = massEkene / heightEkene ** 2; //BMI of Ekene
+const BMITobi = massTobi / heightTobi ** 2; //BMI of Tobi
+const ekeneHigherBMI = BMIEkene > BMITobi; //true or false
+
+console.log(BMIEkene, BMITobi); //BMI of Ekene and Tobi
