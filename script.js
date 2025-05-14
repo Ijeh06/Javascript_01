@@ -97,6 +97,8 @@
 // const averageAge = (ageEkene + ageSharon) / 2; //average age of Ekene and Sharon
 // console.log(ageEkene, ageSharon, averageAge); //average age of Ekene and Sharon
 
+
+/// Operator Precedence
 // const massMark = 78; //kg
 // const heightMark = 1.69; //m
 // const massJohn = 92; //kg
@@ -113,13 +115,13 @@
 
 // console.log(BMIMark, BMIJohn, markHigherBMI); //BMI of Mark and John
 
-const massEkene = 70; //kg
-const heightEkene = 1.75; //m
-const massTobi = 85; //kg
-const heightTobi = 1.76; //m
+// const massEkene = 70; //kg
+// const heightEkene = 1.75; //m
+// const massTobi = 85; //kg
+// const heightTobi = 1.76; //m
 
-const BMIEkene = massEkene / heightEkene ** 2; //BMI of Ekene
-const BMITobi = massTobi / heightTobi ** 2; //BMI of Tobi
-const ekeneHigherBMI = BMIEkene > BMITobi; //true or false
+// const BMIEkene = massEkene / heightEkene ** 2; //BMI of Ekene
+// const BMITobi = massTobi / heightTobi ** 2; //BMI of Tobi
+// const ekeneHigherBMI = BMIEkene > BMITobi; //true or false
 
-console.log(BMIEkene, BMITobi); //BMI of Ekene and Tobi
+// console.log(BMIEkene, BMITobi); //BMI of Ekene and Tobi
