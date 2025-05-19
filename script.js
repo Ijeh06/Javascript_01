@@ -151,9 +151,21 @@
 
 // //Taking Decisions
 
-const age = 19;
-const isOldEnough = age >= 18; //true or
+const age = 14;
 
-if(isOldEnough) {
+if(age >= 18) {
     console.log('Ekene can start driving license🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Ekene is too young. Wait another ${yearsLeft} years!😊`);
 }
+
+const birthYear = 2004;
+
+let century;
+if(birthYear  <= 2000) {
+   century = 20
+} else {
+    century = 21
+}
+console.log(century); //21st century
