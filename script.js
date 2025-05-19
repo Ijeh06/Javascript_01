@@ -170,7 +170,7 @@
 // }
 // console.log(century); //21st century
 
-
+//Coding Challenge 2 for Taking Decision
 const massMark = 78; //kg
 const heightMark = 1.69; //m
 const massJohn = 92; //kg
