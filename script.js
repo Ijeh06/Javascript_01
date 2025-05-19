@@ -171,22 +171,30 @@
 // console.log(century); //21st century
 
 //Coding Challenge 2 for Taking Decision
-const massMark = 78; //kg
-const heightMark = 1.69; //m
-const massJohn = 92; //kg
-const heightJohn = 1.95; //m
+// const massMark = 78; //kg
+// const heightMark = 1.69; //m
+// const massJohn = 92; //kg
+// const heightJohn = 1.95; //m
 
-// const massMark = 95; //kg
-// const heightMark = 1.88; //m
-// const massJohn = 85; //kg
-// const heightJohn = 1.76; //m
+// // const massMark = 95; //kg
+// // const heightMark = 1.88; //m
+// // const massJohn = 85; //kg
+// // const heightJohn = 1.76; //m
 
-const BMIMark = massMark / heightMark ** 2; //BMI of Mark
-const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
-const markHigherBMI = BMIMark > BMIJohn; //true or false
+// const BMIMark = massMark / heightMark ** 2; //BMI of Mark
+// const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
+// const markHigherBMI = BMIMark > BMIJohn; //true or false
 
-if(BMIMark > BMIJohn) {
-    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
-} else {
-    console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
-}
+// if(BMIMark > BMIJohn) {
+//     console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+// } else {
+//     console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+// }
+
+// //Type Conversion and Coercion
+
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear); //1991
+console.log(Number(inputYear) + 18); //199118
+
+console.log(Number('Ekene')); //NaN
