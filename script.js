@@ -126,7 +126,7 @@
 
 // console.log(BMIEkene, BMITobi); //BMI of Ekene and Tobi
 
-
+//Template Literals
 const firstName = 'Ekene';
 const job = 'Programmer';
 const birthYear = 2004;
@@ -141,5 +141,9 @@ console.log(Ekenenew); //template literal
 
 console.log(`Just a regular string...`); //template literal
 console.log('String with \n\
-    multiple \n\
-    lines'); //string with multiple lines
+multiple \n\
+lines'); //string with multiple lines
+
+console.log(`String
+multiple
+lines`); //string with multiple lines
