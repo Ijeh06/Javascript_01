@@ -126,24 +126,24 @@
 
 // console.log(BMIEkene, BMITobi); //BMI of Ekene and Tobi
 
-//Template Literals
-const firstName = 'Ekene';
-const job = 'Programmer';
-const birthYear = 2004;
-const year = 2025;
+// //Template Literals
+// const firstName = 'Ekene';
+// const job = 'Programmer';
+// const birthYear = 2004;
+// const year = 2025;
 
-const ekene = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+// const ekene = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
 
-console.log(ekene); //string concatenation
+// console.log(ekene); //string concatenation
 
-const Ekenenew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
-console.log(Ekenenew); //template literal
+// const Ekenenew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(Ekenenew); //template literal
 
-console.log(`Just a regular string...`); //template literal
-console.log('String with \n\
-multiple \n\
-lines'); //string with multiple lines
+// console.log(`Just a regular string...`); //template literal
+// console.log('String with \n\
+// multiple \n\
+// lines'); //string with multiple lines
 
-console.log(`String
-multiple
-lines`); //string with multiple lines
+// console.log(`String
+// multiple
+// lines`); //string with multiple lines
