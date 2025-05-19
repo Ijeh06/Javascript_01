@@ -149,23 +149,44 @@
 // lines`); //string with multiple lines
 
 
-// //Taking Decisions
+// // //Taking Decisions
 
-const age = 14;
+// const age = 14;
 
-if(age >= 18) {
-    console.log('Ekene can start driving license🚗');
+// if(age >= 18) {
+//     console.log('Ekene can start driving license🚗');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Ekene is too young. Wait another ${yearsLeft} years!😊`);
+// }
+
+// const birthYear = 2004;
+
+// let century;
+// if(birthYear  <= 2000) {
+//    century = 20
+// } else {
+//     century = 21
+// }
+// console.log(century); //21st century
+
+
+const massMark = 78; //kg
+const heightMark = 1.69; //m
+const massJohn = 92; //kg
+const heightJohn = 1.95; //m
+
+// const massMark = 95; //kg
+// const heightMark = 1.88; //m
+// const massJohn = 85; //kg
+// const heightJohn = 1.76; //m
+
+const BMIMark = massMark / heightMark ** 2; //BMI of Mark
+const BMIJohn = massJohn / heightJohn ** 2; //BMI of John
+const markHigherBMI = BMIMark > BMIJohn; //true or false
+
+if(BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
 } else {
-    const yearsLeft = 18 - age;
-    console.log(`Ekene is too young. Wait another ${yearsLeft} years!😊`);
+    console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
-
-const birthYear = 2004;
-
-let century;
-if(birthYear  <= 2000) {
-   century = 20
-} else {
-    century = 21
-}
-console.log(century); //21st century
