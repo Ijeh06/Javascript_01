@@ -147,3 +147,13 @@
 // console.log(`String
 // multiple
 // lines`); //string with multiple lines
+
+
+// //Taking Decisions
+
+const age = 19;
+const isOldEnough = age >= 18; //true or
+
+if(isOldEnough) {
+    console.log('Ekene can start driving license🚗');
+}
