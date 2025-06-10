@@ -221,9 +221,16 @@ console.log(Boolean({}));
 console.log(Boolean(''));
 
 
-const money = 0;
+const money = 1000;
 if (money) {
-    console.log("Don't Spend it all;)");
+    console.log("Don't Spend it all:)");
 }  else {
     console.log("go and get a Job!");
+}
+
+let Height;
+if (Height) {
+    console.log('YAY ! Height is defined');
+}  else {
+    console.log('Height is Undefined');
 }
