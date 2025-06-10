@@ -219,3 +219,11 @@ console.log(Boolean('Ekene'));
 console.log(Boolean(undefined));
 console.log(Boolean({}));
 console.log(Boolean(''));
+
+
+const money = 0;
+if (money) {
+    console.log("Don't Spend it all;)");
+}  else {
+    console.log("go and get a Job!");
+}
