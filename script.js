@@ -212,26 +212,30 @@
 // console.log(n); 
 
 // Truthy and Falsy Values
+
 // false values: 0, '', undefined, null, NaN;
 
-console.log(Boolean(0));
-console.log(Boolean('Ekene'));
-console.log(Boolean(undefined));
-console.log(Boolean({}));
-console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean('Ekene'));
+// console.log(Boolean(undefined));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
 
-const money = 1000;
-if (money) {
-    console.log("Don't Spend it all:)");
-}  else {
-    console.log("go and get a Job!");
-}
+// const money = 1000;
+// if (money) {
+//     console.log("Don't Spend it all:)");
+// }  else {
+//     console.log("go and get a Job!");
+// }
 
-let Height;
-if (Height) {
-    console.log('YAY ! Height is defined');
-}  else {
-    console.log('Height is Undefined');
-}
+// let Height = 123;
+// if (Height) {
+//     console.log('YAY ! Height is defined');
+// }  else {
+//     console.log('Height is Undefined');
+// }
 
+const age = "18";
+if (age === 18) console.log('You just became an adult :D (strict)'); //strict equality
+if (age == 18) console.log('You just became an adult :D (loose)'); //loose equality
