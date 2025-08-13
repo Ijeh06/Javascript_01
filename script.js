@@ -251,4 +251,5 @@ if (age == 18) console.log('You just became an adult :D (loose)'); //loose equal
     console.log('7 is also a cool number!');
  } else {
     console.log('Number is not 23 or 7');
+
  }
