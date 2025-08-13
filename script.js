@@ -257,14 +257,14 @@
 
 //Logical Operators
 
-const hasDriversLicense = true; //A
-const hasGoodVision = true; //B
+// const hasDriversLicense = true; //A
+// const hasGoodVision = true; //B
 
-console.log(hasDriversLicense && hasGoodVision)// //true
-console.log(hasDriversLicense || hasGoodVision)//false
-console.log(!hasDriversLicense)//false
+// console.log(hasDriversLicense && hasGoodVision)// //true
+// console.log(hasDriversLicense || hasGoodVision)//false
+// console.log(!hasDriversLicense)//false
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
 // if (shouldDrive) {
 //    console.log('Ekene is able to drive! 🚗')
@@ -272,11 +272,38 @@ const shouldDrive = hasDriversLicense && hasGoodVision;
 //    console.log('Ekene is not able to drive! 🚫')
 // }
 
-const isTired = false; //C
-console.log(hasDriversLicense && hasGoodVision && isTired); //true
+// const isTired = false; //C
+// console.log(hasDriversLicense && hasGoodVision && isTired); //true
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-   console.log('Ekene is able to drive! 🚗');
-}  else {
-   console.log('Ekene is not able to drive! 🚫');
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//    console.log('Ekene is able to drive! 🚗');
+// }  else {
+//    console.log('Ekene is not able to drive! 🚫');
+// }
+
+// const scoreDolphins = (96 + 108 + 89) / 3; //Dolphins average score
+// const scoreKoalas = (88 + 91 + 110) / 3; //Koalas average score
+// console.log(scoreDolphins, scoreKoalas); //Dolphins and Koalas average scores
+
+// if (scoreDolphins > scoreKoalas) {
+//    console.log('Dolphins win the trophy! 🏆');
+// } else if (scoreKoalas > scoreDolphins) {
+//    console.log('Koalas win the trophy! 🏆');
+// }  else if (scoreDolphins === scoreKoalas) {
+//    console.log('Both win the trophy! 🏆');
+// }
+
+//Bonus 1: Check for a draw
+const scoreDolphins = (97 + 112 + 81) / 3;
+const scoreKoalas = (109 + 95 + 86) / 3;
+console.log(scoreDolphins, scoreKoalas)
+
+if (scoreDolphins > scoreKoalas  && scoreDolphins >= 100) {
+   console.log('Dolphins win the trophy! 🏆');
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+   console.log('Koalas win the trophy! 🏆');
+}  else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+   console.log('Both win the trophy! 🏆');
+} else {
+   console.log('No team wins the trophy! 🏆')
 }
